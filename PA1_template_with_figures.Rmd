@@ -64,7 +64,7 @@ head(stepsBD)
 ```{r}
 qplot(stepsBD, xlab='Total steps per day', ylab='Frequency using binwith 500', binwidth=500,main = '           Histogram - Steps per day', colour = I('red'))
 ```
-![Hist-stepsperday](instructions_fig/Hist-stepsperday.png) 
+![Hist-stepspd](instructions_fig/Hist_stepsperday.png) 
 
 
 ##### 2. Calculate and report the mean and median total number of steps taken per day
