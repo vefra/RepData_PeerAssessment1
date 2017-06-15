@@ -141,7 +141,7 @@ sum(is.na(datosImputed$steps))
 stepsBDIm <- tapply(datosImputed$steps, datosImputed$date, sum)
 qplot(stepsBDIm, xlab='Total steps per day (Imputed)', ylab='Frequency using binwith 500', binwidth=500,main = '          Histogram - Steps per day', colour = I('red') )
 ```
-![Hist- Steps per day](instructions_fig/Hist-Stepsperday.png) 
+![Hist- Steps per day](instructions_fig/Hist-Stepsperdayimput.png) 
 
 ##### Calculate and report the mean and median total number of steps taken per day. 
 ```{r}
